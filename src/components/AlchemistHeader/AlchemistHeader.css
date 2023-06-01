@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    width: 100%;
+    min-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-family: Serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1rem;
+}
+
+header > nav {
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+    width: 33%;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+header > nav > li {
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+header > nav > li:hover {
+    background-color: tomato;
+}
+
+header > h1 {
+    font-size: 30px;
+    font-weight: 400;
+} 

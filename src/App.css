@@ -1,0 +1,9 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: tomato;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+}
