@@ -1,6 +1,6 @@
-import './CharacterCards.css'
+import "./CharacterCards.css";
 
-export function CharacterCards({characters}) {
+export function CharacterCards({ characters }) {
   return (
     <div id="character-cards">
       {characters.map((character) => (
@@ -9,10 +9,10 @@ export function CharacterCards({characters}) {
             <h3>{character.name}</h3>
             <h4>{character.nickname}</h4>
           </div>
-          <img src={character.image} alt={character.name}/>
+          <img src={character.image} alt={character.name} />
           <p>{character.description}</p>
         </div>
       ))}
     </div>
-  )
+  );
 }
